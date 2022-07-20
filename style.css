@@ -8,7 +8,7 @@ body {
 
 /*----------------------- top section---------------------------------------- */
 .top-section {
-    Width: 870px;
+    Width: 75%;
     Height: 679px;
     background-color: white;
     margin: 0 auto;
@@ -84,7 +84,7 @@ span {
 
 /* latest courses */
 .latest-courses {
-    width: 870px;
+    width: 75%;
     height: 362px;
     background: #FFFFFF;
     border-radius: 5px;
@@ -124,18 +124,19 @@ span {
 
 .ratting-time {
     display: flex;
+    align-items: center;
 }
 
 .time {
     display: flex;
     color: #ED6B4F;
     font-size: 15px;
-    background-color: rgb(255, 228, 232);
-    height: 30px;
+    justify-content: space-between;
 }
 
 .time img {
     height: 20px;
     width: 20px;
+    margin-top: 16px;
 
 }
